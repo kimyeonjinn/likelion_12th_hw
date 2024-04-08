@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+
+  <style>
+    a {
+      text-decoration: none;
+    }
+
+    .body-container {
+      background-color: #111;
+      color: #fff;
+      margin: 20px;
+    }
+
+    .navbar-container {
+      display: flex;
+      align-items: center;
+      padding-left: 20px;
+      gap: 40px;
+      background-color: #FF9364;
+      font-size: 18px;
+    }
+
+    .navbar-link {
+      color: #5c3900;
+      font-size: 30px;
+    }
+
+    .navbar-link:hover {
+      color: #111;
+    }
+
+    .contents {
+      font-size: 50px;
+      margin: 20px;
+    }
+  </style>
+</head>
+
+<body class="body-container">
+ 
+    <div>
+    <nav class="navbar-container">
+      <!-- mainpage 링크 연결 -->
+      <a class="navbar-link" href="{% url 'mainpage' %}">DGU_likelion_12th</a> 
+      <!-- secondpage 링크 연결 -->
+      <a class="navbar-link" href="{% url 'secondpage' %}">Second Page</a>
+     
+    </nav>
+    <h1 class="contents" >어서오세요!</h1>
+    <div class="contents">이게 끝입니다! 놀랍게도</div>
+    <p>대박적인 것을 만들어보고자 했지만... 어렵더라구요...! 공부 더 해서 올게요~~~</p>
+    <p>🦁2주차 과제 소감🦁</p>
+    <p> 어렵지만 페이지를 만들어 볼 수 있는 게 재밌다! 여전히 많이 해내지만 열심히 한다면 언젠가는 훅훅(?) 만들어 낼 수 있는 날이 오지 않을까? 민폐가 되지 않도록 열심히 공부해서 따라가야겠다!!!😎🤓</p>
+    
+</body>
+
+</html>
